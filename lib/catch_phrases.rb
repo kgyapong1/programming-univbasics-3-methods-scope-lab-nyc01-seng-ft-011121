@@ -1,11 +1,4 @@
-
-$status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-$phrase = "It's-a me, Mario!"
-$secondphrase = "It's Dangerous To Go Alone! Take This."
-
-
 def mario
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   phrase = "It's-a me, Mario!"
   puts phrase
 end
@@ -16,11 +9,11 @@ def toadstool
 end
 
 def link
-  secondphrase =  "It's Dangerous To Go Alone! Take This."
-  puts secondphrase
+  puts "It's Dangerous To Go Alone! Take This."
 end
 
-def catch_phrase(phrase)
-  puts phrase
+def all_phrases
+  mario
+  toadstool
+  link
 end
-  
